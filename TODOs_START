@@ -1,0 +1,33 @@
+#Proiect NASA travel
+-------------
+EP#1) Get Mars weather details - owner Alice
+	1) call NASA API - InSight
+	2) convert to metric system
+	3) add linking to EP#2(default location)
+	4) add linking to EP#3
+	*keep in mind source and destination
+
+EP#2) Get Earth(Bucharest) weather - owner Alin
+	1) call 'By city name'
+	2) if missing city name, add Bucharest as default for the call and mention that they can add their own city name
+	3) convert to metric system
+	4) add linking to EP#1(default location) - add option to specify another planet
+	5) add linking to EP#3
+	*keep in mind source and destination
+ 
+EP#3) Compare + advice - owner Ionut
+	1) compare values and add advice accordingly
+	2) show results with metris system
+	3) add linking to EP#5 (eg: takeRATA)
+
+EP#4 & EP#5 - George
+EP#4) Get rover (rover-RAT-A) pictures
+	1) add a number of pictures to show in one call
+
+EP#5) Travel (show pictures)
+	1) compute a possible travel duration and decide how many pictures to show
+	2) based on 1) call EP#4 stating how many pictures to show
+
+
+Extra: IDEI?
+------
